@@ -17,12 +17,17 @@ body {
     margin: 0;
     font-family: "Open Sans";
 }
+ul, ol {
+    padding-left: 0;
+    margin: 0;
+}
 .container {
     max-width: 940px;
     margin: 0 auto;
 }
 :root {
     --white-color: rgba(255, 255, 255, 1);
+    --grey-color: rgba(72, 85, 91, 1);
 }
 .text__h1 {
     font-family: "Bebas Neue";
@@ -70,19 +75,32 @@ body {
 }
 /* navigation */
 .navigation {
+    padding-top: 20px;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
 }
 .navbar__logo {
-    padding-top: 23px;
+    padding-top: 3px;
 }
 .img__navbar-logo {
     max-width: 80px;
+    width: 100%;
 }
-.navbar__menu > ul {
+.navbar__menu {
+}
+.menu__flex {
     display: flex;
+    justify-content: flex-end;
+    gap: 40px;
 }
 .menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--grey-color);
 }
