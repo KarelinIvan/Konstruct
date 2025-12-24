@@ -28,6 +28,7 @@ ul, ol {
 :root {
     --white-color: rgba(255, 255, 255, 1);
     --grey-color: rgba(72, 85, 91, 1);
+    --accent-color: rgba(0, 164, 229, 1);
 }
 .text__h1 {
     font-family: "Bebas Neue";
@@ -103,4 +104,8 @@ ul, ol {
     font-weight: 700;
     letter-spacing: 0.8px;
     color: var(--grey-color);
+}
+.menu__link:hover {
+    cursor: pointer;
+    color: var(--accent-color);
 }
