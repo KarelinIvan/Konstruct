@@ -76,7 +76,9 @@ ul, ol {
 }
 /* navigation */
 .navigation {
-    padding-top: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #E6E6E6;
+    margin-bottom: 20px;
 }
 .navbar {
     display: flex;
