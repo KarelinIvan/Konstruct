@@ -43,6 +43,9 @@ ul, ol {
     font-weight: 700;
 }
 .text-h3 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
 }
 .text-p {
     font-family: "Open Sans";
@@ -126,16 +129,30 @@ ul, ol {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2.31px;
+    margin-bottom: 67px;
 }
-.story__content {
+.text-h2__story::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent-color);
+}
+.story__inner {
+    display: flex;
 }
 .story__left {
 }
-.text__h3__story {
+.text-h3__story {
+    margin-bottom: 30px;
 }
 .accent-color {
+    color: var(--accent-color);
 }
-.text__p__story {
+.text-p__story {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    color: var(--grey-color);
 }
 .story__right {
 }
