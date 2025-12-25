@@ -129,13 +129,15 @@ ul, ol {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2.31px;
-    margin-bottom: 67px;
+    margin-bottom: 55px;
 }
 .text-h2__story::after {
     content: '';
     width: 50px;
     height: 2px;
     background-color: var(--accent-color);
+    display: block;
+    margin: 10px auto 0;
 }
 .story__inner {
     display: flex;
@@ -143,6 +145,7 @@ ul, ol {
 .story__left {
 }
 .text-h3__story {
+    letter-spacing: 0.19px;
     margin-bottom: 30px;
 }
 .accent-color {
