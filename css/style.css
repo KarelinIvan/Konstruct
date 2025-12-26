@@ -14,14 +14,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 body {
     max-width: 1440px;
-    margin: 0;
-    font-family: "Open Sans";
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
 }
 ul, ol {
     padding-left: 0;
     margin: 0;
 }
 .container {
+    width: 100%;
     max-width: 940px;
     margin: 0 auto;
 }
@@ -30,13 +31,23 @@ ul, ol {
     --grey-color: rgba(72, 85, 91, 1);
     --accent-color: rgba(0, 164, 229, 1);
 }
-.text__h1 {
+.text-h1 {
     font-family: "Bebas Neue";
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 5.7px;
 }
-.text__p {
+.text-h2 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+.text-h3 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-p {
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400; 
@@ -58,17 +69,17 @@ ul, ol {
 .header__content {
     text-align: center;
 }
-.text__h1_title {
+.text-h1__title {
     color: var(--white-color);
     padding-left: 12px;
     margin-bottom: -7px;
 }
-.text__p_header-one {
+.text-p__header-one {
     color: var(--white-color);
     letter-spacing: 0.3px;
     margin-bottom: 220px;
 }
-.text__p_header-two {
+.text-p__header-two {
     color: var(--white-color);
     text-transform: uppercase;
     font-size: 11px;
@@ -78,7 +89,7 @@ ul, ol {
 .navigation {
     padding: 20px;
     border-bottom: 2px solid #E6E6E6;
-    margin-bottom: 20px;
+    margin-bottom: 57px;
 }
 .navbar {
     display: flex;
@@ -110,4 +121,66 @@ ul, ol {
 .menu__link:hover {
     cursor: pointer;
     color: var(--accent-color);
+}
+/* story */
+.story {
+}
+.text-h2__story {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.31px;
+    margin-bottom: 55px;
+}
+.text-h2__story::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    margin: 10px auto 0;
+}
+.story__inner {
+    display: flex;
+}
+.story__left {
+    max-width: 405px;
+    margin-right: 75px;
+}
+.text-h3__story {
+    letter-spacing: 0.19px;
+    margin-bottom: 30px;
+}
+.accent-color {
+    color: var(--accent-color);
+}
+.text-p__story {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    color: var(--grey-color);
+}
+.story__right {
+    display: flex;
+    align-items: flex-end;
+}
+.story__item {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    padding: 15px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+}
+.story__item:nth-child(1) {
+    background-image: url(../img/weplan.png);
+}
+.story__item:nth-child(2) {
+    background-image: url(../img/wemanage.png);
+}
+.story__item:nth-child(3) {
+    background-image: url(../img/webuild.png);
+    margin-right: 0;
 }
