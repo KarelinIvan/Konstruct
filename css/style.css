@@ -124,6 +124,7 @@ ul, ol {
 }
 /* story */
 .story {
+    margin-bottom: 120px;
 }
 .text-h2__story {
     text-transform: uppercase;
@@ -183,4 +184,62 @@ ul, ol {
 .story__item:nth-child(3) {
     background-image: url(../img/webuild.png);
     margin-right: 0;
+}
+/* services */
+.services {
+    margin-bottom: 100px;
+}
+.services__inner {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.services__title {
+    width: 200px;
+    margin-right: 153px;
+}
+.services__text {
+    width: 405px;
+    margin-right: 32px;
+}
+.services__button {
+    width: 150px;
+}
+.text-h2__services {
+    text-transform: uppercase;
+    letter-spacing: 2.31px;
+}
+.text-h2__services::after {
+    content: '';
+    width: 51px;
+    height: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    margin-top: 10px;
+}
+.text-p__services-inner {
+    height: 40px;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    line-height: 19px;
+    color: var(--grey-color);
+}
+.services__btn {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    text-align: center;
+    border: none;
+}
+.services__flex {
+}
+.services__item {
+}
+.services__img {
+}
+.text-h3__services {
+}
+.text-p__services-item {
 }
