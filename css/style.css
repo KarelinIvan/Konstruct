@@ -316,7 +316,7 @@ input {
 }
 .new-sletter__form {
 }
-.form-input {
+.form__input {
     width: 250px;
     height: 40px;
     border: none;
@@ -328,4 +328,5 @@ input {
     letter-spacing: 0.07px;
     color: var(--grey-color);
 }
-
+.form__btn {
+}
