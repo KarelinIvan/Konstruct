@@ -192,7 +192,7 @@ ul, ol {
 .services__inner {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 .services__title {
     width: 200px;
@@ -233,13 +233,32 @@ ul, ol {
     text-align: center;
     border: none;
 }
+.services__btn:hover {
+    cursor: pointer;
+}
 .services__flex {
+    display: flex;
+    justify-content: space-between;
 }
 .services__item {
+    width: 295px;
+    height: 330px;
+    padding: 38px 21px 39px 23px;
+    border: 1px solid rgba(230, 230, 230, 1);
 }
 .services__img {
+    margin-bottom: 25px;
 }
 .text-h3__services {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.43px;
+    line-height: 24px;
+    margin-bottom: 12px;
 }
 .text-p__services-item {
+    font-size: 13px;
+    letter-spacing: 0.19px;
+    line-height: 23px;
+    color: var(--grey-color);
 }
