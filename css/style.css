@@ -236,7 +236,7 @@ ul, ol {
     text-align: center;
     border: none;
 }
-.services__btn:hover {
+.btn:hover {
     cursor: pointer;
 }
 .services__flex {
