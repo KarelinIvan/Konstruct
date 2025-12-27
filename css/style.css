@@ -21,6 +21,15 @@ ul, ol {
     padding-left: 0;
     margin: 0;
 }
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+input {
+    margin: 0;
+    padding: 0;
+}
 .container {
     width: 100%;
     max-width: 940px;
@@ -235,7 +244,6 @@ ul, ol {
     background-color: var(--accent-color);
     color: var(--white-color);
     text-align: center;
-    border: none;
 }
 .btn:hover {
     cursor: pointer;
@@ -272,6 +280,7 @@ ul, ol {
     background-image: url(../img/bg_get-in-touch.png);
     background-repeat: no-repeat;
     min-height: 499px;
+    margin-bottom: -2px;
 }
 .get-in-touch__inner {
     text-align: center;
