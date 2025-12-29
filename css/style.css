@@ -17,9 +17,10 @@ body {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
 }
-ul, ol {
+ul, ol, li {
     padding-left: 0;
     margin: 0;
+    list-style: none;
 }
 button {
     margin: 0;
@@ -29,6 +30,10 @@ button {
 input {
     margin: 0;
     padding: 0;
+}
+a:hover {
+    cursor: pointer;
+    color: var(--accent-color);
 }
 .container {
     width: 100%;
@@ -56,6 +61,11 @@ input {
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
+}
+.text-h4 {
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
 }
 .text-p {
     font-family: "Open Sans";
@@ -127,10 +137,6 @@ input {
     font-weight: 700;
     letter-spacing: 0.8px;
     color: var(--grey-color);
-}
-.menu__link:hover {
-    cursor: pointer;
-    color: var(--accent-color);
 }
 /* story */
 .story {
@@ -299,6 +305,7 @@ input {
 .new-sletter {
     background-color: var(--black-color);
     padding: 30px 0;
+    margin-bottom: -2px;
 }
 .new-sletter__inner {
     display: flex;
@@ -329,4 +336,125 @@ input {
     color: var(--grey-color);
 }
 .form__btn {
+    padding-top: 2px;
+    margin-left: -4px;
+}
+/* footer */
+.footer {
+    padding-top: 42px;
+    background-color: rgba(20, 26, 32, 1);
+}
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.footer__company {
+    max-width: 250px;
+}
+.footer__title {
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    color: var(--white-color);
+}
+.title__company {
+    margin-bottom: 19px;
+}
+.footer__logo {
+    height: 23px;
+    margin-bottom: 15px;
+}
+.text-p__footer {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: var(--white-color);
+}
+.footer__menu {
+    width: 262px;
+}
+.title__menu {
+    margin-bottom: 10px;
+}
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.item1 {
+    width: 83px;
+}
+.item2 {
+    width: 52px;
+}
+.item3 {
+    width: 62px;
+}
+.menu__list {
+    list-style: none;
+}
+.menu__footer-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    line-height: 25px;
+    color: var(--white-color);
+}
+.footer__contacts {
+    width: 141px;
+}
+.title__contacts {
+    margin-bottom: 14px;
+}
+.contacts__list {
+    list-style: none;
+    margin-bottom: 6px;
+}
+.contacts__link {
+    display: inline-block;
+    line-height: 16px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    color: var(--white-color);
+    margin-bottom: 5px;
+    
+}
+.footer__socials {
+    width: 87px;
+}
+.socials__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.socials__item {
+    padding-top: 25px;
+}
+.fa {
+    color: var(--white-color);
+}
+.fa:hover {
+    color: var(--accent-color);
+}
+.fa-facebook-square {
+}
+.fa-twitter {
+}
+.fa-google {
+}
+.footer__copy {
+    background-color: var(--black-color);
+}
+.copy__info {
+    text-align: center;
+    padding: 23px;
+    color: var(--white-color);
+    letter-spacing: 0.85px;
 }
