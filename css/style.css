@@ -206,6 +206,18 @@ input, button {
     background-image: url(../img/webuild.png);
     margin-right: 0;
 }
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    .story__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text-p__story {
+        margin-bottom: 10px;
+    }
+}
 /* services */
 .services {
     margin-bottom: 115px;
@@ -283,6 +295,12 @@ input, button {
     letter-spacing: 0.19px;
     line-height: 23px;
     color: var(--grey-color);
+}
+@media screen and (max-width: 768px) {
+    .services__item {
+        width: 240px;
+        padding: 23px 10px 39px 23px;
+}
 }
 /* get-in-touch */
 .get-in-touch {
