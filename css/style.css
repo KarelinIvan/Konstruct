@@ -37,31 +37,40 @@ input, button {
     --accent-color: rgba(0, 164, 229, 1);
     --link-color: rgba(0, 164, 229, 1);
     --black-color: rgba(23, 24, 25, 1);
+
+    --font-family-bebas: "Bebas Neue", sans-serif;
+    --font-family-open-sans: "Open Sans", sans-serif;
+
+    --text-h1: 60px;
+    --text-h2: 20px;
+    --text-h3: 18px;
+    --text-h4: 11px;
+    --text-p: 16px;
 }
 .text-h1 {
-    font-family: "Bebas Neue";
-    font-size: 60px;
+    font-family: var(--font-family-bebas);
+    font-size: var(--text-h1);
     font-weight: 400;
     letter-spacing: 5.7px;
 }
 .text-h2 {
-    font-family: "Open Sans";
-    font-size: 20px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h2);
     font-weight: 700;
 }
 .text-h3 {
-    font-family: "Open Sans";
-    font-size: 18px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h3);
     font-weight: 700;
 }
 .text-h4 {
-    font-family: "Open Sans";
-    font-size: 11px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h4);
     font-weight: 400;
 }
 .text-p {
-    font-family: "Open Sans";
-    font-size: 16px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-p);
     font-weight: 400; 
 }
 /* header */
