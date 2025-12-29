@@ -51,12 +51,12 @@ input {
 }
 .text-h2 {
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 .text-h3 {
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 .text-h4 {
@@ -142,14 +142,14 @@ input {
 .story {
     margin-bottom: 120px;
 }
-.text-h2__story {
+.text-h3__story {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2.31px;
     margin-bottom: 55px;
     color: var(--grey-color);
 }
-.text-h2__story::after {
+.text-h3__story::after {
     content: '';
     width: 50px;
     height: 2px;
@@ -164,7 +164,7 @@ input {
     max-width: 405px;
     margin-right: 75px;
 }
-.text-h3__story {
+.text-h2__story {
     letter-spacing: 0.19px;
     margin-bottom: 30px;
     color: var(--grey-color);
@@ -223,12 +223,12 @@ input {
 .services__button {
     width: 150px;
 }
-.text-h2__services {
+.text-h3__services {
     text-transform: uppercase;
     letter-spacing: 2.31px;
     color: var(--grey-color);
 }
-.text-h2__services::after {
+.text-h3__services::after {
     content: '';
     width: 51px;
     height: 2px;
@@ -267,7 +267,7 @@ input {
 .services__img {
     margin-bottom: 25px;
 }
-.text-h3__services {
+.text-h2__services {
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: 0.43px;
@@ -291,7 +291,7 @@ input {
 .get-in-touch__inner {
     text-align: center;
 }
-.text-h2__get-in-touch {
+.text-h3__get-in-touch {
     padding-top: 120px;
     width: 350px;
     margin: 0 auto;
@@ -316,7 +316,7 @@ input {
 .new-sletter__title {
     color: var(--white-color);
 }
-.text-h2__new-sletter {
+.text-h3__new-sletter {
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.85px;
