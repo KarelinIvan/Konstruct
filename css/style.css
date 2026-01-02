@@ -225,7 +225,8 @@ input, button {
     margin-right: 153px;
 }
 .services__text {
-    width: 405px;
+    max-width: 405px;
+    width: 100%;
     margin-right: 32px;
 }
 .services__button {
