@@ -106,7 +106,7 @@ input, button {
 .text-p__header-two {
     color: var(--white-color);
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: var(--text-h4);
     letter-spacing: 3.6px;
 }
 @media screen and (max-width: 1280px){
@@ -149,6 +149,16 @@ input, button {
 .menu__link:hover {
     cursor: pointer;
     color: var(--link-color);
+}
+@media screen and (max-width: 480px){
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .navbar__menu {
+        padding-top: 10px;
+    }
 }
 /* story */
 .story {
@@ -262,7 +272,7 @@ input, button {
 }
 .text-p__services-inner {
     height: 40px;
-    font-size: 11px;
+    font-size: var(--text-h4);
     letter-spacing: 0.2px;
     line-height: 19px;
     color: var(--grey-color);
@@ -293,7 +303,7 @@ input, button {
 }
 .text-h2__services {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: var(--text-p);
     letter-spacing: 0.43px;
     line-height: 24px;
     margin-bottom: 12px;
@@ -309,12 +319,30 @@ input, button {
     .services__item {
         width: 240px;
         padding: 23px 10px 39px 23px;
+    }
 }
+@media screen and (max-width: 480px) {
+    .services {
+        margin-bottom: 10px;
+    }
+    .services__inner {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .services__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__item {
+        margin-bottom: 10px;
+    }
 }
 /* get-in-touch */
 .get-in-touch {
     background-image: url(../img/bg_get-in-touch.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 499px;
     margin-bottom: -2px;
 }
