@@ -140,6 +140,7 @@ input, button {
     font-weight: 700;
     letter-spacing: 0.8px;
     color: var(--grey-color);
+    transition: 0.5s ease;
 }
 .menu__link:hover {
     cursor: pointer;
@@ -410,6 +411,7 @@ input, button {
     letter-spacing: 0.85px;
     line-height: 25px;
     color: var(--white-color);
+    transition: 0.5s ease;
 }
 .menu__footer-link:hover {
     cursor: pointer;
@@ -434,6 +436,7 @@ input, button {
     letter-spacing: 0.85px;
     color: var(--white-color);
     margin-bottom: 5px;
+    transition: 0.5s ease;
 }
 .contacts__link:hover {
     cursor: pointer;
@@ -451,6 +454,7 @@ input, button {
 }
 .fa {
     color: var(--white-color);
+    transition: 0.5s ease;
 }
 .fa:hover {
     color: var(--accent-color);
