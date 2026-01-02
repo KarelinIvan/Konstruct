@@ -297,6 +297,7 @@ input, button {
     height: 330px;
     padding: 38px 21px 39px 23px;
     border: 1px solid rgba(230, 230, 230, 1);
+    overflow: auto;
 }
 .services__img {
     margin-bottom: 25px;
@@ -527,5 +528,8 @@ input, button {
     .footer__flex {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .footer__company {
+        margin-bottom: 20px;
     }
 }
