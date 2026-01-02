@@ -37,31 +37,40 @@ input, button {
     --accent-color: rgba(0, 164, 229, 1);
     --link-color: rgba(0, 164, 229, 1);
     --black-color: rgba(23, 24, 25, 1);
+
+    --font-family-bebas: "Bebas Neue", sans-serif;
+    --font-family-open-sans: "Open Sans", sans-serif;
+
+    --text-h1: 60px;
+    --text-h2: 20px;
+    --text-h3: 18px;
+    --text-h4: 11px;
+    --text-p: 16px;
 }
 .text-h1 {
-    font-family: "Bebas Neue";
-    font-size: 60px;
+    font-family: var(--font-family-bebas);
+    font-size: var(--text-h1);
     font-weight: 400;
     letter-spacing: 5.7px;
 }
 .text-h2 {
-    font-family: "Open Sans";
-    font-size: 20px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h2);
     font-weight: 700;
 }
 .text-h3 {
-    font-family: "Open Sans";
-    font-size: 18px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h3);
     font-weight: 700;
 }
 .text-h4 {
-    font-family: "Open Sans";
-    font-size: 11px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-h4);
     font-weight: 400;
 }
 .text-p {
-    font-family: "Open Sans";
-    font-size: 16px;
+    font-family: var(--font-family-open-sans);
+    font-size: var(--text-p);
     font-weight: 400; 
 }
 /* header */
@@ -97,13 +106,8 @@ input, button {
 .text-p__header-two {
     color: var(--white-color);
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: var(--text-h4);
     letter-spacing: 3.6px;
-}
-@media screen and (max-width: 1280px){
-    .header__logo {
-        margin-bottom: 220px;
-    }
 }
 /* navigation */
 .navigation {
@@ -206,18 +210,6 @@ input, button {
     background-image: url(../img/webuild.png);
     margin-right: 0;
 }
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 0 10px;
-    }
-    .story__inner {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .text-p__story {
-        margin-bottom: 10px;
-    }
-}
 /* services */
 .services {
     margin-bottom: 115px;
@@ -253,7 +245,7 @@ input, button {
 }
 .text-p__services-inner {
     height: 40px;
-    font-size: 11px;
+    font-size: var(--text-h4);
     letter-spacing: 0.2px;
     line-height: 19px;
     color: var(--grey-color);
@@ -278,13 +270,14 @@ input, button {
     height: 330px;
     padding: 38px 21px 39px 23px;
     border: 1px solid rgba(230, 230, 230, 1);
+    overflow: auto;
 }
 .services__img {
     margin-bottom: 25px;
 }
 .text-h2__services {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: var(--text-p);
     letter-spacing: 0.43px;
     line-height: 24px;
     margin-bottom: 12px;
@@ -296,16 +289,12 @@ input, button {
     line-height: 23px;
     color: var(--grey-color);
 }
-@media screen and (max-width: 768px) {
-    .services__item {
-        width: 240px;
-        padding: 23px 10px 39px 23px;
-}
-}
 /* get-in-touch */
 .get-in-touch {
     background-image: url(../img/bg_get-in-touch.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 499px;
     margin-bottom: -2px;
 }
